@@ -26,7 +26,7 @@ int main(void){
         printf("Do you want to add another node? Type Yes/No\n");
         scanf("%s", ch);
     }while(!strcmp("Yes", ch));
-    printf("The elements in the list are ");
+    printf("The elements in the linked list are ");
     display(p);
     printf("\nThe number of elements in the linked list is %d", count(p));
     return 0;
